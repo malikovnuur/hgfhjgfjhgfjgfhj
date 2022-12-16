@@ -9,11 +9,11 @@ public interface UserService{
 
     String createUser(List<User> users);
 
-    List<User> findAllUsers();
+    List<User> findAllUsers(List<User>users);
 
-    User findUserById(Long id);
+    User findUserById(Long id, List<User> users);
 
-    String removeUserByName(String name);
+    String removeUserByName(String name, List<User> users);
 
     void updateUser(Long id);//kaisil pole ozgorsun dep surap, oshogo jarasha ozgortuu
 

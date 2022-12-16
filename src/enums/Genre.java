@@ -4,7 +4,12 @@ public enum Genre {
     FANTASY,
     HISTORICAL,
     ROMANCE,
-    DETECTIVE
+    DETECTIVE;
 
+
+    public boolean contains(String genre) {
+
+        return false;
+    }
 
 }
